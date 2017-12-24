@@ -1,0 +1,78 @@
+#password
+{
+    height: 130%;
+    width: 125%;
+    border-width: thick;
+    font-size: 200%;
+    position:absolute;
+    margin-top: 50%;
+    top: 110px;
+    left: -30px;
+
+}
+
+#Email
+{
+    height: 130%;
+    width: 125%;
+    border-width: thick;
+    font-size: 200%;
+    position:absolute;
+    z-axis: 1px;
+    top: 195px;
+    left: -30px;
+}
+
+#LoginButton
+{
+    border-width: thick;
+    font-size: 175%;
+    position:absolute;
+    z-axis: 1px;
+    top: 323px;
+    width: 170px;
+    margin: auto;
+}
+
+#SignUpButton
+{
+    position: relative;
+    width: 60%;
+    height:11%;
+    background: lightskyblue;
+    padding:0;
+    border-color: deepskyblue;
+    font-size: 125%;
+    border-width: thick;
+    top: 323px;
+    right: 50px;
+
+
+
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+    background-image: url("images/login_sudoku.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#centered{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+}
+
+#login{
+    display: block;
+    margin: auto;
+    position: relative;
+}

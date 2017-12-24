@@ -1,0 +1,95 @@
+body{
+
+    height: 100%;
+    width: 100%;
+    color: darkblue;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+}
+
+head{
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    left: 725px;
+    top: 70px;
+    position: relative;
+    font-size: 250%;
+    color: darkgreen;
+}
+img {
+    position: relative;
+    left: 735px;
+    top: 100px;
+    z-index: -1;
+    height: 450px;
+    width: 450px;
+}
+#centered{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 466;
+    right: 0;
+    background-color: transparent;
+}
+
+#CRButton{
+    position: absolute;
+    left: 170px;
+    top: 10px;
+    border-radius: 4px;
+}
+
+#RoomName{
+    positon: relative;
+    left: 100px;
+    height: 4%;
+    border-radius: 4px;
+
+}
+
+#JRButton{
+    position: relative;
+    top: -210px;
+    left: 550px;
+    height: 5%;
+    border-radius: 4px;
+}
+
+#StatsButton{
+    position: relative;
+    top: -280px;
+    left: 1285px;
+    height: 5%;
+    border-radius: 4px;
+}
+
+#CreateRoom
+{
+    display: block;
+    margin: auto;
+    position: relative;
+    left: 860px;
+    top: 170px;
+}
+
+#JoinRoom
+{
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+#Statistics
+{
+    display: block;
+    margin: auto;
+    position: relative;
+}
